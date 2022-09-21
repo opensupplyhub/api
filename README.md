@@ -49,25 +49,9 @@ You can also specify the values as a JSON list/array, thus avoiding the `|` deli
 
 #### Change of response payload fields from oar_id to osh_id
 
-API calls which return `oar_id` will now return `osh_id` fields. This will specifically affect the GET call of https://opensupplyhub.org/api/facilities .
+API calls which return `oar_id` will now return `os_id` fields. This will specifically affect the GET call of https://opensupplyhub.org/api/facilities .
 
 ### New Endpoints
-
-#### facilities-downloads
-
-*candidate for being hidden*
-
-This new endpoint allows downloading a list of facilities in row/tabular format. 
-
-#### parent-companies
-
-*candidate for being hidden*
-
-```
-contributor ID, name
-or
-name,name
-```
 
 #### sectors
 
@@ -75,11 +59,8 @@ Get a list of sectors as stored in the database.
 
 ### Notifications
 
-*recommend hiding the tab*
-
 This functionality will not be available during release in November.
 
-API subsribers will have the ability to set up push notifications to be alerted when changes are made to facilities they are associated with or for facilities matching a speficic set of filter criteria. These notifications can be sent to different destination URLs based on the needs of the subscriber (e.g. you can set up an alert to go to a CSR team and another to go to the Procurement team). 
 
 #### Lean Response: 
 
