@@ -59,12 +59,12 @@ Get a list of sectors as stored in the database.
 
 ### Notifications
 
-This functionality will not be available during release in November.
+This functionality will not be available during a later release.
 
 
 #### Lean Response: 
 
-We have added an optional detail query parameter to the GET /api/facilities endpoint. If `detail=false`, the response is restricted to only an array of OAR ID, match status, and confidence score, together with geojson information. Using `detail=false` also requires `create=false`. 
+We have added an optional detail query parameter to the GET /api/facilities endpoint. If `detail=false`, the response is restricted to only an array of OS ID, match status, and confidence score, together with geojson information. Using `detail=false` also requires `create=false`. 
 
 ```
 {
