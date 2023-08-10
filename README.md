@@ -1,3 +1,8 @@
+# Brief overview of the API
+
+This repository contains a few simple examples on how to get started, as a (python) jupyter notebook. In addition, it summarises the changes made for the November 2022 relaunch of openapparelregistry as opensupplyhub.
+
+
 # OS Hub API Change Notes for November 2022 
 
 ## Overview
